@@ -2,11 +2,11 @@
 const equiArsUsd = 205.77; //1 dolar estadounidense es igual a 205.77 pesos Argentinos
 
 function cotizarDolar(pesos){
-    let dolar = pesos/equiArsUsd;
+    var dolar = pesos/equiArsUsd;
     console.log(dolar.toFixed(2));
 }
 function cotizarPesos(dolar){
-    let pesos = dolar*equiArsUsd;
+    var pesos = dolar*equiArsUsd;
     console.log(pesos.toFixed(2));
 }
 
